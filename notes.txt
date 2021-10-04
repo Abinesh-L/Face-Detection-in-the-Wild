@@ -1,0 +1,3 @@
+Due to the confusion in naming the facedetector.py file I have named in two different names.
+Runtime:
+Both the codes take a maximum of 30 seconds to run
