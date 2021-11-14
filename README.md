@@ -16,10 +16,12 @@ top-left corner along with the width and height of the box, in that order.
 An image element in my results.json file will look like so:
 [{"iname": "img.jpg", "bbox": [x, y, width, height]}, ...]
 # TASK 2:
+
 I used the concept of K-Means Clustering on the 128-bin output of
 face_recognition.face_encodings. The program is coded (FaceCluster.py), so
 that it will be able to detect faces in the given images. Then this list is passed
 to face_recognition.face_encodings to get the 128-bin feature output. In this
 append vector of size(Nx128), where N is the number of images, the concept
 of K-means clustering is applied to sort the images based on the feature. The
-number of features used is 128. The final clustered output is below.
+number of features used is 128.
+The images used are in the folder facecluster_5.
