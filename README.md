@@ -1,7 +1,7 @@
 # Face-Detection-in-the-Wild
 In this project there are 2 tasks performed: 1) Face Detection: There are a set of images given where each image consists of people. The task is to identify the faces in the images and annotate them 2) Face Clustering: Images of different people are given. The task is to identify and cluster all the images of same identity using K-means, and do the same for all other people in the given images.
 # TASK 1:
-\n For this task, I used Haar feature based cascade classifiers to detect the faces
+For this task, I used Haar feature based cascade classifiers to detect the faces
 in the images.
 Haar Feature:
 Haar feature works based on the concept of Viola–Jones object detection
